@@ -23,7 +23,7 @@ const APIRequest = () => {
     const createCatFact = () => {
         if (apiData !== null){
             return (
-                <p> {apiData.fact}</p>
+                <p className="m-2"> {apiData.fact}</p>
             )
         }
         return (<></>)
@@ -40,7 +40,7 @@ const APIRequest = () => {
         <>
             <h1 class="m-2"> Simple Api App </h1>
             {createCatFact()}
-            <button type="button" class="btn btn-primary" onClick={() => {getNewCatFact()}}>New Cat Fact</button>
+            <button type="button" class="btn btn-primary m-2" onClick={() => {getNewCatFact()}}>New Cat Fact</button>
 
         </>
 
