@@ -37,12 +37,12 @@ const APIRequest = () => {
     
 
     return (
-        <>
+        <div class="d-flex flex-column align-items-center justify-content-center text-center">
             <h1 class="m-2"> Simple Api App </h1>
             {createCatFact()}
             <button type="button" class="btn btn-primary m-2" onClick={() => {getNewCatFact()}}>New Cat Fact</button>
 
-        </>
+        </div>
 
 
     )
