@@ -5,7 +5,8 @@ const Counter = () => {
     const [counter, setCounter] = useState(0);
 
 return (
-    <>
+    <div class="d-flex flex-column align-items-center justify-content-center text-center">
+
     <h1 class="m-2"> Counter App </h1>
     <h3 class="m-2"> Count is: {counter} </h3>
     <div class="container">
@@ -22,7 +23,7 @@ return (
             
         </div>
     </div>
-</>
+</div>
 )
 }
 
