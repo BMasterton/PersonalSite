@@ -13,6 +13,12 @@
   }
 }
 
+
+.Img-Size {
+width: '100%';
+max-width: '800px';
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -34,15 +40,7 @@
   font-weight: bold;
 }
 
-holderOfBrao {
-  /* width:80%; */
-  margin:auto;
-}
 
-carosel {
-  width:80%;
-  margin:auto;
-}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
