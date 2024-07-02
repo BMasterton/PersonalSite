@@ -12,25 +12,17 @@ const [counterLoaded, setCounterLoaded] = useState(true);
 
   return (
     <>
-
       <BrowserRouter>
-            <Routes>
-              <Route path="/" element={<Layout />}>
-                <Route index element={<Home />} />
-                <Route path="Counter" element={<Counter />} />
-                <Route path="APIRequest" element={<APIRequest />} />
-                <Route path="*" element={<NoPage />} />
-              </Route>
-            </Routes>
-          </BrowserRouter>
-      <div className='App'>
-        
-        {/* <Counter /> */}
-        {/* <APIRequest /> */}
-        
-      </div>
-      
-  </>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="Counter" element={<Counter />} />
+            <Route path="APIRequest" element={<APIRequest />} />
+            <Route path="*" element={<NoPage />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 

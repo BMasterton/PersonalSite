@@ -1,4 +1,5 @@
-import { Outlet, Link, NavLink } from "react-router-dom";
+import { Outlet, Link } from "react-router-dom";
+import { FaHouse } from "react-icons/fa6";
 
 const Layout = () => {
   return (
@@ -11,12 +12,12 @@ const Layout = () => {
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav p-2">
             <li class="nav-item p-1">
-              <Link className="nav-bar-link" to="/">Home</Link>
+              <Link className="nav-bar-link" to="/"><FaHouse/></Link>
             </li>
-            <li class="nav-item p-1">
+            <li class="nav-item p-1 ps-3">
               <Link className="nav-bar-link" to="/Counter">Counter</Link>
             </li>
-            <li class="nav-item p-1">
+            <li class="nav-item p-1 ps-3">
               <Link className="nav-bar-link"to="/APIRequest">APIRequests</Link>
             </li>
           </ul>

@@ -2,6 +2,7 @@ import React, {useState, useEffect} from "react";
 import axios from 'axios';
 
 
+//maybe have another request or something, maybe mack a backend for it 
 const APIRequest = () => {
     const [apiData, setAPIData] = useState(null);
 
