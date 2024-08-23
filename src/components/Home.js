@@ -7,7 +7,7 @@ const Home = () => {
             <div className="holderOfBrao d-flex flex-column align-items-center text-center">
                 <h1>Welcome Home</h1>
                 
-                <div id="carouselExampleIndicators" className="carousel slide Img-Size" data-bs-ride="carousel" style={{ width: '100%', maxWidth: '800px' }}>
+                <div id="carouselExampleIndicators" className="carousel carousel-dark slide Img-Size" data-bs-ride="carousel" style={{ width: '100%', maxWidth: '800px' }}>
                     <div className="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
